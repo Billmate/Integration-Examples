@@ -1,0 +1,51 @@
+{
+	"PaymentData": {
+		"method": 8,
+		"currency": "SEK",
+		"language": "sv",
+		"country": "SE",
+		"orderid": "123456"
+	},
+	"Card": {
+		"accepturl": "https://www.yoururl.com/?payment=success",
+		"callbackurl": "https://www.yoururl.com/?payment=callback",
+		"cancelurl": "https://www.yoururl.com/?payment=cancel",
+		"returnmethod": "POST"
+	},
+	"Customer": {
+		"nr": 1234,
+		"Billing": {
+			"firstname": "Firstname",
+			"lastname": "Lastname",
+			"company": "",
+			"street": "Street 1",
+			"street2": "",
+			"zip": "12345",
+			"city": "City",
+			"country": "SE",
+			"phone": "0700123123",
+			"email": "firstname.lastname@mail.com"
+		}
+	},
+	"Articles":[  
+		{  
+			"nr": "123",
+			"title": "Article #1",
+			"taxrate": 25,
+			"withouttax": 10000
+		},
+		{  
+			"nr": "321",
+			"title": "Article #2",
+			"taxrate": 25,
+			"withouttax": 20000
+		}
+	],
+	"Cart": {  
+		"Total": {  
+			"withouttax": 30000,
+			"tax": 7500,
+			"withtax": 37500
+		}
+	}
+}
